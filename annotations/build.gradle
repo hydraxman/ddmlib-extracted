@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+sourceCompatibility = JavaVersion.VERSION_1_6
+targetCompatibility = JavaVersion.VERSION_1_6
+
+group = 'com.android.tools'
+archivesBaseName = 'annotations'
+version = "1.0"
+
+project.ext.pomName = 'Android Tools Annotations library'
+project.ext.pomDesc = 'annotations used throughout the Android tools libraries.'

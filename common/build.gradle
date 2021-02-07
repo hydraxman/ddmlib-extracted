@@ -1,0 +1,19 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.0'
+    id 'java'
+}
+
+dependencies {
+    api project(':annotations')
+    // https://mvnrepository.com/artifact/com.google.guava/guava
+    api group: 'com.google.guava', name: 'guava', version: '30.0-jre'
+    implementation group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib', version: '1.4.30'
+
+}
+
+group = 'com.android.tools'
+archivesBaseName = 'common'
+version = "1.0"
+
+project.ext.pomName = 'Android Tools common library'
+project.ext.pomDesc = 'common library used by other Android tools libraries.'

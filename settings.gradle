@@ -1,0 +1,4 @@
+rootProject.name = 'ddmlib-extracted'
+include 'common'
+include 'ddmlib'
+include 'annotations'

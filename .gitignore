@@ -1,0 +1,15 @@
+target
+.idea
+*.iml
+.gradle
+build
+dbpass.properties
+out
+application-local.yml
+
+local.properties
+
+packages
+package-1
+
+log/*
